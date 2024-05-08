@@ -1,7 +1,7 @@
 function checkAnswer(answer) {
     const result = document.getElementById('result');
     let x = 0;
-    if (answer === 'c') {
+    if (answer === 'a') {
         x =x+1;
         result.textContent = "ถูกต้อง "+ x + " คะแนน";
         result.style.color = 'green';
